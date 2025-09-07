@@ -1,44 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>HealthCare</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- <h1>HealthCare</h1> -->
+    <!-- <h3>Welcome!!</h3> -->
+    <!-- <p>Simplify medical journeys through technology</p> -->
+    <!-- <div id="home_container"> -->
+    <!--   <img src="images/doctor_img-removebg-preview.png" alt="doc_image"> -->
+    <!-- </div> -->
+    <!-- <div id="img"> -->
+    <!--   <img src="images/doc-removebg-preview.png" alt="doctor_image"> -->
+    <!-- </div> -->
+    <!-- <div id="button_container"> -->
+    <!--   <a href="pages/sign_up.html"><button>Sign Up</button></a> -->
+    <!--   <a href="pages/sign_in.html"><button>Sign In</button></a> -->
+    <!-- </div> -->
+
+
+    <nav class="navbar">
+      <div class="logo">Mywebsite</div>
+      <!-- <ul class="nav-links"> -->
+      <!--   <li>Home</li> -->
+      <!--   <li class="has-panel"> -->
+      <!--     <a href="#">About Us</a> -->
+      <!--     <div class="panel"> -->
+      <!--       <h2>About Us</h2> -->
+      <!--       <p>we are a HealthCare platform providing the best services for patients.</p> -->
+      <!--     </div> -->
+      <!--   </li> -->
+      <!--   <li class="has-panel"> -->
+      <!--     <a href="#">Contact Us</a> -->
+      <!--     <div class="panel"> -->
+      <!--       <h2>Contact Us</h2> -->
+      <!--       <p>E-mail:shripokhrikar@gmail.com</p> -->
+      <!--       <p>phone no.:8424034614</p> -->
+      <!--     </div> -->
+      <!--   </li> -->
+      <!-- </ul> -->
+      <ul class="nav-links">
+        <li>Home</li>
+        <li>
+          <div id="dropdown">
+            About Us
+            <div id="dropdown_content">
+              <h2>About Us</h2>
+              <p>we are a HealthCare platform providing the best services for patients.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div id="dropdown">
+            Contact Us
+            <div id="dropdown_content">
+              <h2>Contact Us</h2>
+              <p>
+                E-mail:shripokhrikar@gmail.com
+                Phone no.:8424034614
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
     <h1>HealthCare</h1>
-    <h3>Welcome!!</h3>
-    <p>Simplify medical journeys through technology</p>
-    <div id="home_container">
-        <img src="images/doctor_img-removebg-preview.png" alt="doc_image">
-    </div>
-        <div id="img">
+    <div class="hero_container">
+      <div>
         <img src="images/doc-removebg-preview.png" alt="doctor_image">
+        <img src="images/doctor_img-removebg-preview.png" alt="doc_image">
+      </div>
+      <div class="welcome_container">
+        <h3>Welcome!!</h3>
+        <p>Simplify medical journeys through technology</p>
+        <div class="button_container">
+          <a href="pages/sign_up.html"><button>Sign Up</button></a>
+          <a href="pages/sign_in.html"><button>Sign In</button></a>
         </div>
-        <div id="button_container">
-            <a href="pages/sign_up.html"><button>Sign Up</button></a>
-            <a href="pages/sign_in.html"><button>Sign In</button></a>
-        </div>
-        <nav class="navbar">
-            <div class="logo">Mywebsite</div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-        <li class="has-panel">
-            <a href="#">About Us</a>
-            <div class="panel">
-                <h2>About Us</h2>
-                <p>we are a HealthCare platform providing the best services for patients.</p>
-                </div>
-                </li>
-                <li class="has-panel">
-                    <a href="#">Contact Us</a>
-                    <div class="panel">
-                        <h2>Contact Us</h2>
-                        <p>E-mail:shripokhrikar@gmail.com</p>
-                        <p>phone no.:8424034614</p>
-                     </div>
-                </li>
-            </ul>
-</body>
+      </div>
+    </div>
+
+  </body>
 </html>

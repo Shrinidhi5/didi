@@ -7,10 +7,18 @@
 }
 
 body {
+  margin: 0px;
+  padding: 0px;
   text-decoration: none;
 }
 
+h1 {
+  text-align: center;
+}
+
 #quiz {
+  position: relative;
+  top: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
